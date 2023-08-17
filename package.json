@@ -4,9 +4,9 @@
   "description": "A webapp wrapper for running node-red in an Azure Web App",
   "main": "server.js",
   "dependencies": {
-    "node-red": "^3.0.2"
+    "node-red": "^3.0.2",
+    "node-red-contrib-stackhero-mysql": "^1.0.5"
   },
-  "devDependencies": {},
   "scripts": {
     "postinstall": "node postinstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,5 +25,8 @@
     "url": "https://github.com/jmservera/node-red-azure-webapp/issues"
   },
   "homepage": "https://github.com/jmservera/node-red-azure-webapp#readme",
-  "engines": {"node":">=12.15.0", "npm":">=6.13.4"}
+  "engines": {
+    "node": ">=12.15.0",
+    "npm": ">=6.13.4"
+  }
 }
