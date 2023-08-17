@@ -3,7 +3,7 @@
 (if not exist \home\nodered\.node-red mkdir \home\nodered\.node-red)
 copy npm_.cmd \home\nodered\.node-red\npm_.cmd
 pushd \home\nodered\.node-red
-npm install node-red & (
+npm install node-red node-red-contrib-stackhero-mysql & (
      copy npm_.cmd npm.cmd /y
      popd 
      copy npm_.cmd npm.cmd /y
